@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Sparkles, Code2, Layers3 } from "lucide-react";
+import { ArrowUpRight, Code2, Layers3 } from "lucide-react";
 import portrait from "../assets/pedro-portrait.jpg";
 import { WHATSAPP_URL } from "../data/projects";
 
@@ -90,7 +90,9 @@ export default function Hero() {
                 key={stat.value}
                 className="rounded-2xl border border-border bg-card/35 p-4 backdrop-blur-md"
               >
-                <p className="font-serif text-2xl text-foreground">{stat.value}</p>
+                <p className="font-serif text-2xl text-foreground">
+                  {stat.value}
+                </p>
                 <p className="mt-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
                   {stat.label}
                 </p>
@@ -106,8 +108,8 @@ export default function Hero() {
           className="relative lg:col-span-5"
         >
           <div className="relative mx-auto max-w-md">
-            <div className="absolute -inset-5 rounded-[2.5rem] border border-primary/20 rotate-3" />
-            <div className="absolute -inset-2 rounded-[2rem] border border-border -rotate-2" />
+            <div className="absolute -inset-5 rotate-3 rounded-[2.5rem] border border-primary/20" />
+            <div className="absolute -inset-2 -rotate-2 rounded-[2rem] border border-border" />
 
             <div className="relative overflow-hidden rounded-[2rem] border border-border bg-card shadow-[0_40px_120px_-55px_rgba(0,0,0,0.9)]">
               <div className="aspect-[4/5] overflow-hidden">
