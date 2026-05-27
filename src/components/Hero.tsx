@@ -25,9 +25,8 @@ export default function Hero() {
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55 }}
-            className="mb-8 inline-flex items-center gap-2 rounded-full border border-primary/25 bg-primary/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.18em] text-primary"
+            className="mb-8 inline-flex items-center rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-xs font-medium uppercase tracking-[0.16em] text-white/70"
           >
-            <Sparkles className="h-3.5 w-3.5" />
             Full Stack • Founder • Digital Strategy
           </motion.div>
 
